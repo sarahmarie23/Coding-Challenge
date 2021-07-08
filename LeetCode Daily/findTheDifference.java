@@ -2,7 +2,7 @@ import java.nio.charset.StandardCharsets;
 
 class Solution {
     public char findTheDifference(String s, String t) {
-    	
+    	//figure out which letter was added to string t
     	int sSum = 0;
     	int tSum = 0;
     	byte[] sArr = s.getBytes(StandardCharsets.US_ASCII);
